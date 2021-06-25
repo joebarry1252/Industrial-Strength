@@ -1,2 +1,1 @@
-# dummydataproject
-Dummy project to act as a scaffold example for project 1
+# Project 2 What It Do
