@@ -14,14 +14,14 @@ server = app.server
 
 scaler=MinMaxScaler(feature_range=(0,1))
 
-df_nse = pd.read_csv("../Data/EMR.csv")
+df_mod = pd.read_csv("../Data/EMR.csv")
 
-df_nse["Date"]=pd.to_datetime(df_nse.Date,format="%Y-%m-%d")
-df_nse.index=df_nse['Date']
+df_mod["Date"]=pd.to_datetime(df_mod.Date,format="%Y-%m-%d")
+df_mod.index=df_mod['Date']
 
 
-data=df_nse.sort_index(ascending=True,axis=0)
-new_data=pd.DataFrame(index=range(0,len(df_nse)),columns=['Date','Close'])
+data=df_mod.sort_index(ascending=True,axis=0)
+new_data=pd.DataFrame(index=range(0,len(df_mod)),columns=['Date','Close'])
 
 for i in range(0,len(data)):
     new_data["Date"][i]=data['Date'][i]
