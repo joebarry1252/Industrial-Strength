@@ -5,3 +5,5 @@ In this project, our group members each selected three stocks from the industria
 Machinery/Conglomerates: CAT, DE, and HON
 Aerospace & Defense: BA, LMT, and RTX
 Motors/Generators: CMI, EMR, GNRC
+
+Joseph analyzed the Machinery/Conglomerate stocks. Dennis analyzed the Aerospace and Defense stocks. Ahsan analyzed the Motor/Generator 
